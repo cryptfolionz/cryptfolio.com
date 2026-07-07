@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  {% if page.name %}
+    {%- assign body_class = "page-" | append: page.name | replace: ".md", "" | slugify -%}
+  {% else %}
+    {%- assign body_class = "page-" | append: page.id | slugify -%}
+  {% endif %}
+
+  <body class="{{ body_class }}">
+
+    <header>
+      <a class="logo" href="/">CryptFolio</a><span class="reg">&reg;</span>
+    </header>
+
+    <main class="page-content" aria-label="Content">
+      <div class="content">
+        {{ content }}
+      </div>
+    </main>
+
+    <footer>
+      <a href="/privacy">Privacy Policy</a>
+      <br>
+      <small>Copyright &copy; CryptFolio 2013 – 2026. CryptFolio&reg; is a registered trademark of CryptFolio Limited.</small>
+    </footer>
+
+  </body>
+
+</html>
