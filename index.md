@@ -28,7 +28,7 @@ source code to the web and mobile apps,
 and a massive amount of cryptocurrency historical data are available to purchase.
 This historical data includes more than **4.6 trillion exchange rate data points**
 collected over the last **twelve years** (2014 – 2026);
-currency metadata for over **19,000 fiat, cryptocurrenciesm and Ethereum tokens**;
+currency metadata for over **19,000 fiat, cryptocurrencies, and Ethereum tokens**;
 exchange metadata and listing data from dozens of exchanges and Blockchain explorers;
 and much more.
 
